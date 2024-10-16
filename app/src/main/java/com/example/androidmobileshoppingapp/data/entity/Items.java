@@ -1,4 +1,4 @@
-package com.example.techcareerandroiddeveloperodev6.data.entity;
+package com.example.androidmobileshoppingapp.data.entity;
 
 import java.io.Serializable;
 

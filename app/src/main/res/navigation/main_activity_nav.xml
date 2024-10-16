@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/anasayfaFragment"
-        android:name="com.example.techcareerandroiddeveloperodev6.ui.fragment.AnasayfaFragment"
+        android:name="com.example.androidmobileshoppingapp.ui.fragment.AnasayfaFragment"
         android:label="fragment_anasayfa"
         tools:layout="@layout/fragment_anasayfa" >
         <action
@@ -16,11 +16,11 @@
     </fragment>
     <fragment
         android:id="@+id/detayFragment"
-        android:name="com.example.techcareerandroiddeveloperodev6.ui.fragment.DetayFragment"
+        android:name="com.example.androidmobileshoppingapp.ui.fragment.DetayFragment"
         android:label="fragment_detay"
         tools:layout="@layout/fragment_detay" >
         <argument
             android:name="item"
-            app:argType="com.example.techcareerandroiddeveloperodev6.data.entity.Items" />
+            app:argType="com.example.androidmobileshoppingapp.data.entity.Items" />
     </fragment>
 </navigation>

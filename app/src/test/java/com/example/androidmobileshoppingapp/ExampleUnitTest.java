@@ -1,4 +1,4 @@
-package com.example.techcareerandroiddeveloperodev6;
+package com.example.androidmobileshoppingapp;
 
 import org.junit.Test;
 

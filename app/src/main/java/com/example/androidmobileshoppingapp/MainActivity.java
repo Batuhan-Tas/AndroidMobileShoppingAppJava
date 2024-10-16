@@ -1,4 +1,4 @@
-package com.example.techcareerandroiddeveloperodev6;
+package com.example.androidmobileshoppingapp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -18,3 +18,5 @@ public class MainActivity extends AppCompatActivity {
 
 
 }
+
+

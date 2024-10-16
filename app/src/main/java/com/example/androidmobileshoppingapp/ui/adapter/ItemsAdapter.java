@@ -1,4 +1,4 @@
-package com.example.techcareerandroiddeveloperodev6.ui.adapter;
+package com.example.androidmobileshoppingapp.ui.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,9 +8,9 @@ import androidx.annotation.NonNull;
 import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.techcareerandroiddeveloperodev6.data.entity.Items;
-import com.example.techcareerandroiddeveloperodev6.databinding.CardTasarimBinding;
-import com.example.techcareerandroiddeveloperodev6.ui.fragment.AnasayfaFragmentDirections;
+import com.example.androidmobileshoppingapp.data.entity.Items;
+import com.example.androidmobileshoppingapp.databinding.CardTasarimBinding;
+import com.example.androidmobileshoppingapp.ui.fragment.AnasayfaFragmentDirections;
 
 import java.util.List;
 

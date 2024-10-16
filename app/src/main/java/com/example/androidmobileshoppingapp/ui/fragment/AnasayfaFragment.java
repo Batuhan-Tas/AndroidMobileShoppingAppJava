@@ -1,18 +1,20 @@
-package com.example.techcareerandroiddeveloperodev6.ui.fragment;
+package com.example.androidmobileshoppingapp.ui.fragment;
 
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.techcareerandroiddeveloperodev6.R;
-import com.example.techcareerandroiddeveloperodev6.data.entity.Items;
-import com.example.techcareerandroiddeveloperodev6.databinding.FragmentAnasayfaBinding;
-import com.example.techcareerandroiddeveloperodev6.ui.adapter.ItemsAdapter;
+
+import com.example.androidmobileshoppingapp.data.entity.Items;
+import com.example.androidmobileshoppingapp.databinding.FragmentAnasayfaBinding;
+import com.example.androidmobileshoppingapp.ui.adapter.ItemsAdapter;
+
 
 import java.util.ArrayList;
 
@@ -47,14 +49,16 @@ public class AnasayfaFragment extends Fragment {
         itemsList.add(i5);
         itemsList.add(i6);
 
-        binding.linearRv.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
+        binding.linearRv.setLayoutManager(new LinearLayoutManager(requireContext(),LinearLayoutManager.HORIZONTAL,false));
 
         Items i7 = new Items(7,"2021 Apple iPad","ipad",20000);
         Items i8 = new Items(8,"Yu-Gi-Oh Collection","yugioh",50);
+        Items i9 = new Items(9,"Guitars","guitar",3000);
 
         ArrayList<Items> linearItemsList = new ArrayList<>();
         linearItemsList.add(i7);
         linearItemsList.add(i8);
+        linearItemsList.add(i9);
 
         ItemsAdapter itemsAdapter = new ItemsAdapter(itemsList,requireContext());
         binding.itemsRv.setAdapter(itemsAdapter);

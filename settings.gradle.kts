@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TechCareerAndroidDeveloperOdev6"
+rootProject.name = "androidmobileshoppingapp"
 include(":app")

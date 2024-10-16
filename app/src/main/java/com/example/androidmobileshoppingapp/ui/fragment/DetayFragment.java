@@ -1,4 +1,4 @@
-package com.example.techcareerandroiddeveloperodev6.ui.fragment;
+package com.example.androidmobileshoppingapp.ui.fragment;
 
 import android.os.Bundle;
 
@@ -8,9 +8,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.techcareerandroiddeveloperodev6.R;
-import com.example.techcareerandroiddeveloperodev6.data.entity.Items;
-import com.example.techcareerandroiddeveloperodev6.databinding.FragmentDetayBinding;
+
+import com.example.androidmobileshoppingapp.data.entity.Items;
+import com.example.androidmobileshoppingapp.databinding.FragmentDetayBinding;
+
 
 
 public class DetayFragment extends Fragment {
@@ -28,6 +29,7 @@ public class DetayFragment extends Fragment {
 
         binding.toolbarDetay.setTitle(item.getName());
         binding.ivItem.setImageResource(getResources().getIdentifier(item.getPhoto(),"drawable",requireContext().getPackageName()));
+        
 
 
 

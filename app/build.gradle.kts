@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.techcareerandroiddeveloperodev6"
+    namespace = "com.example.androidmobileshoppingapp"
     compileSdk = 34
 
     buildFeatures{
@@ -12,7 +12,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.techcareerandroiddeveloperodev6"
+        applicationId = "com.example.androidmobileshoppingapp"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
